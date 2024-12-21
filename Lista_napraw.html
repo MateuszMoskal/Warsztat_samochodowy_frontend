@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Warsztat_samochodowy</title>
+  <link rel="stylesheet" href="Warsztat_style.css">
+</head>
+<body>
+<nav class="menu">
+  <ul>
+    <li><a href="#Dodanie_klienta">Dodaj klienta</a></li>
+    <li><a href="#Dodanie_pojazdu">Dodaj pojazd</a></li>
+    <li><a href="#Dodanie_mechanika">Dodaj mechanika</a></li>
+    <li><a href="#Dodanie_zgłoszenia">Dodaj zgłoszenie</a></li>
+    <li><a href="#Przyjecie_naprawy">Przyjecie naprawy</a></li>
+    <li><a href="#Klienci">Lista klientów</a></li>
+    <li><a href="#Pojazdy">Lista pojazdów</a></li>
+    <li><a href="#Naprawy">Lista napraw</a></li>
+    <li><a href="#Mechanicy">Lista mechaników</a></li>
+
+
+  </ul>
+</nav>
+<div class="lista_napraw" id = "lista_napraw" >
+  <h2>naprawy: </h2>
+  <table id="tabela_napraw">
+    <thead>
+    <tr>
+      <th>id naprawy</th>
+      <th>data rozpoczęcia</th>
+      <th>data zakończenia</th>
+      <th>opis usterki</th>
+      <th>stan</th>
+      <th>protokoł naprawy</th>
+      <th>login mechanika</th>
+      <th>vin pojazdu</th>
+<!--      możliwość modyfikacji pól-->
+    </tr>
+    </thead>
+    <tbody id="naprawa-table">
+    <tr>
+      <td>1</td>
+      <td>2024-10-12</td>
+      <td>2024-10-18</td>
+      <td>Przedziurawiona miska olejowa</td>
+      <td>Rozpoczęty</td>
+      <td> Po demontażu „starej” miski oczyszczono i odtłuszczono elementy przylegające (blok silnika i powierzchnię styku miski olejowej).
+        Schnięcie masy uszczelniającej wynosiło 6-10 godz. Olej silnikowy wlano dopiero po całkowitym wyschnięciu masy.</td>
+<!--      dodanie przycisku "czytaj więcej"-->
+      <td>Zdzisław</td>
+      <td>ABSDAE221293821283</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<script src="Script.js"></script>
+</body>
+</html>

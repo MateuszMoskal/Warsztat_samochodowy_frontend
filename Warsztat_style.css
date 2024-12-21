@@ -1,0 +1,163 @@
+body{
+    background-color: lightblue;
+    color: black;
+}
+
+.formularz{
+    color: saddlebrown;
+    margin: 50px auto;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+input {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
+
+.menu {
+    background-color: #c4dcf8;
+    color: black;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lista_klientów{
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    /*border-collapse: collapse;*/
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4a9ff1;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.lista_pojazdów{
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lista_mechaników{
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lista_napraw{
+    max-width: 1000px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.delete-button{
+    background-color: #e64b4b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.delete-button:hover{
+    background-color: #f61414;
+}
+
+.read-more{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.read-more:hover {
+    background-color: #0e5db1;
+}
+
+.details {
+    color: green;
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
